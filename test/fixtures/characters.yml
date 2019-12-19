@@ -1,0 +1,23 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  eye_color: MyString
+  hair_color: MyString
+  glasses: false
+  beard: false
+  ear_rings: false
+  necklace: false
+  image: MyString
+  profession: MyString
+
+two:
+  name: MyString
+  eye_color: MyString
+  hair_color: MyString
+  glasses: false
+  beard: false
+  ear_rings: false
+  necklace: false
+  image: MyString
+  profession: MyString

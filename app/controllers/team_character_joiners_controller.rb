@@ -1,0 +1,2 @@
+class TeamCharacterJoinersController < ApplicationController
+end

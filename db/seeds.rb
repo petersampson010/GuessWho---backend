@@ -1,7 +1,98 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+Character.create(name: "The Queen", eye_color: "blue", hair_color: "white", glasses: true, beard: false, ear_rings: true, necklace: true, image: "img_url", profession: "n/a")
+Character.create(name: "Kim Kardashian", eye_color: "blue", hair_color: "white", glasses: true, beard: false, ear_rings: true, necklace: true, image: "img_url", profession: "n/a")
+Character.create(name: "Kaitlyn Jenner", eye_color: "blue", hair_color: "white", glasses: true, beard: false, ear_rings: true, necklace: true, image: "img_url", profession: "n/a")
+Character.create(name: "Mother Teresa", eye_color: "blue", hair_color: "white", glasses: true, beard: false, ear_rings: true, necklace: true, image: "img_url", profession: "n/a")
+
+Character.create(name: "Amy Winehouse", eye_color: "blue", hair_color: "white", glasses: true, beard: false, ear_rings: true, necklace: true, image: "img_url", profession: "music")
+Character.create(name: "Ludwig van Beethoven", eye_color: "blue", hair_color: "white", glasses: true, beard: false, ear_rings: true, necklace: true, image: "img_url", profession: "music")
+Character.create(name: "Tupac Shakur", eye_color: "blue", hair_color: "white", glasses: true, beard: false, ear_rings: true, necklace: true, image: "img_url", profession: "music")
+Character.create(name: "John Lennon", eye_color: "blue", hair_color: "white", glasses: true, beard: false, ear_rings: true, necklace: true, image: "img_url", profession: "music")
+
+Character.create(name: "Serena Williams", eye_color: "blue", hair_color: "white", glasses: true, beard: false, ear_rings: true, necklace: true, image: "img_url", profession: "sport")
+Character.create(name: "Conor McGregor", eye_color: "blue", hair_color: "white", glasses: true, beard: false, ear_rings: true, necklace: true, image: "img_url", profession: "sport")
+Character.create(name: "Mike Tyson", eye_color: "blue", hair_color: "white", glasses: true, beard: false, ear_rings: true, necklace: true, image: "img_url", profession: "sport")
+Character.create(name: "Jess Enniss", eye_color: "blue", hair_color: "white", glasses: true, beard: false, ear_rings: true, necklace: true, image: "img_url", profession: "sport")
+
+Character.create(name: "Denzel Washington", eye_color: "blue", hair_color: "white", glasses: true, beard: false, ear_rings: true, necklace: true, image: "img_url", profession: "actor")
+Character.create(name: "Clint Eastwood", eye_color: "blue", hair_color: "white", glasses: true, beard: false, ear_rings: true, necklace: true, image: "img_url", profession: "actor")
+Character.create(name: "Judi Dench", eye_color: "blue", hair_color: "white", glasses: true, beard: false, ear_rings: true, necklace: true, image: "img_url", profession: "actor")
+Character.create(name: "Jennifer Anniston", eye_color: "blue", hair_color: "white", glasses: true, beard: false, ear_rings: true, necklace: true, image: "img_url", profession: "actor")
+
+Character.create(name: "Mickey Mouse", eye_color: "blue", hair_color: "white", glasses: true, beard: false, ear_rings: true, necklace: true, image: "img_url", profession: "fiction")
+Character.create(name: "Mary Poppins", eye_color: "blue", hair_color: "white", glasses: true, beard: false, ear_rings: true, necklace: true, image: "img_url", profession: "fiction")
+Character.create(name: "Mr Bean", eye_color: "blue", hair_color: "white", glasses: true, beard: false, ear_rings: true, necklace: true, image: "img_url", profession: "fiction")
+Character.create(name: "Forrest Gump", eye_color: "blue", hair_color: "white", glasses: true, beard: false, ear_rings: true, necklace: true, image: "img_url", profession: "fiction")
+
+Team.create(name: "team1", player: true)
+Team.create(name: "team2", player: true)
+Team.create(name: "deck", player: false)
+
+TeamCharacterJoiner.create(character_id: 1, team_id: 1)
+TeamCharacterJoiner.create(character_id: 2, team_id: 1)
+TeamCharacterJoiner.create(character_id: 3, team_id: 1)
+TeamCharacterJoiner.create(character_id: 4, team_id: 1)
+TeamCharacterJoiner.create(character_id: 5, team_id: 1)
+TeamCharacterJoiner.create(character_id: 6, team_id: 1)
+TeamCharacterJoiner.create(character_id: 7, team_id: 1)
+TeamCharacterJoiner.create(character_id: 8, team_id: 1)
+TeamCharacterJoiner.create(character_id: 9, team_id: 1)
+TeamCharacterJoiner.create(character_id: 10, team_id: 1)
+TeamCharacterJoiner.create(character_id: 11, team_id: 1)
+TeamCharacterJoiner.create(character_id: 12, team_id: 1)
+TeamCharacterJoiner.create(character_id: 13, team_id: 1)
+TeamCharacterJoiner.create(character_id: 14, team_id: 1)
+TeamCharacterJoiner.create(character_id: 15, team_id: 1)
+TeamCharacterJoiner.create(character_id: 16, team_id: 1)
+TeamCharacterJoiner.create(character_id: 17, team_id: 1)
+TeamCharacterJoiner.create(character_id: 18, team_id: 1)
+TeamCharacterJoiner.create(character_id: 19, team_id: 1)
+TeamCharacterJoiner.create(character_id: 20, team_id: 1)
+
+TeamCharacterJoiner.create(character_id: 1, team_id: 2)
+TeamCharacterJoiner.create(character_id: 2, team_id: 2)
+TeamCharacterJoiner.create(character_id: 3, team_id: 2)
+TeamCharacterJoiner.create(character_id: 4, team_id: 2)
+TeamCharacterJoiner.create(character_id: 5, team_id: 2)
+TeamCharacterJoiner.create(character_id: 6, team_id: 2)
+TeamCharacterJoiner.create(character_id: 7, team_id: 2)
+TeamCharacterJoiner.create(character_id: 8, team_id: 2)
+TeamCharacterJoiner.create(character_id: 9, team_id: 2)
+TeamCharacterJoiner.create(character_id: 10, team_id: 2)
+TeamCharacterJoiner.create(character_id: 11, team_id: 2)
+TeamCharacterJoiner.create(character_id: 12, team_id: 2)
+TeamCharacterJoiner.create(character_id: 13, team_id: 2)
+TeamCharacterJoiner.create(character_id: 14, team_id: 2)
+TeamCharacterJoiner.create(character_id: 15, team_id: 2)
+TeamCharacterJoiner.create(character_id: 16, team_id: 2)
+TeamCharacterJoiner.create(character_id: 17, team_id: 2)
+TeamCharacterJoiner.create(character_id: 18, team_id: 2)
+TeamCharacterJoiner.create(character_id: 19, team_id: 2)
+TeamCharacterJoiner.create(character_id: 20, team_id: 2)
+
+TeamCharacterJoiner.create(character_id: 1, team_id: 3)
+TeamCharacterJoiner.create(character_id: 2, team_id: 3)
+TeamCharacterJoiner.create(character_id: 3, team_id: 3)
+TeamCharacterJoiner.create(character_id: 4, team_id: 3)
+TeamCharacterJoiner.create(character_id: 5, team_id: 3)
+TeamCharacterJoiner.create(character_id: 6, team_id: 3)
+TeamCharacterJoiner.create(character_id: 7, team_id: 3)
+TeamCharacterJoiner.create(character_id: 8, team_id: 3)
+TeamCharacterJoiner.create(character_id: 9, team_id: 3)
+TeamCharacterJoiner.create(character_id: 10, team_id: 3)
+TeamCharacterJoiner.create(character_id: 11, team_id: 3)
+TeamCharacterJoiner.create(character_id: 12, team_id: 3)
+TeamCharacterJoiner.create(character_id: 13, team_id: 3)
+TeamCharacterJoiner.create(character_id: 14, team_id: 3)
+TeamCharacterJoiner.create(character_id: 15, team_id: 3)
+TeamCharacterJoiner.create(character_id: 16, team_id: 3)
+TeamCharacterJoiner.create(character_id: 17, team_id: 3)
+TeamCharacterJoiner.create(character_id: 18, team_id: 3)
+TeamCharacterJoiner.create(character_id: 19, team_id: 3)
+TeamCharacterJoiner.create(character_id: 20, team_id: 3)
+
+
+
+
+
+
+
