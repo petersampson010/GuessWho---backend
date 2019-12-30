@@ -14,14 +14,15 @@ ActiveRecord::Schema.define(version: 2019_12_19_094550) do
 
   create_table "characters", force: :cascade do |t|
     t.string "name"
-    t.string "eye_color"
-    t.string "hair_color"
-    t.boolean "glasses"
-    t.boolean "beard"
-    t.boolean "ear_rings"
-    t.boolean "necklace"
-    t.string "image"
-    t.string "profession"
+    t.string "colour"
+    t.integer "number_of_eyes"
+    t.boolean "hat"
+    t.boolean "ears"
+    t.boolean "horns"
+    t.boolean "hair"
+    t.boolean "fin"
+    t.boolean "nose"
+    t.boolean "eyebrows"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
