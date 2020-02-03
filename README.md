@@ -1,4 +1,4 @@
-# README
+# Guess Who
 
 This is a single-player game based on the old classic "Guess Who".
 
